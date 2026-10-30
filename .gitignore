@@ -1,0 +1,23 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Data and trained models (big files; recreate with the scripts)
+data/*.csv
+data/*.zip
+models/*.joblib
+
+# Output of src/train.py
+reports/script_run/
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
